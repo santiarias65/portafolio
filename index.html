@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link rel="stylesheet" href="css/stylos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#briefcase">Portafolio</a></li>
+                    <li><a href="#about-me">Sobre Mi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="hero" id="inicio">
+            <div class="container">
+
+                <img src="img/fondo-desktop.jpg">
+            </div>
+        </div>
+        <div class="profile">
+            <div class="square"></div>
+            <div class="circle-trans"></div>
+            <div class="circle"></div>
+            <div class="profile-img"><img src="img/yosinfondo.png" alt=""></div>
+            <div class="square-text">Santiago Arias</div>
+            <div class="square-text-2"><span>ING. Sistemas | Web Deloveper</span></div>
+            <div class="contact-icon">
+                <a href="https://github.com/santiarias65" target="_blank"><img src="img/github.svg" alt=""></a>
+                <a data-modal-id="message"><img src="img/message.svg" alt=""></a>
+            </div>
+            <div class="square-text-3"><a href="#about-me"><span>About me |</span>Sobre Mi</a></div>
+        </div>
+
+    </section>
+
+    <section class="briefcase" id="briefcase">
+        <div class="briefcase-section container">
+            <h2><span>Briefcase |</span> Portafolio</h2>
+            <div class="briefcase-grid">
+                <div><a data-modal-id="modalLaberin"><img src="img/logoLaberin.PNG" alt=""></a></div>
+                <div><a data-modal-id="modalUniquiz"><img src="img/proyectoUniquiz.PNG" alt=""></a></div>
+                <div><a data-modal-id="modalParqueadero"><img src="img/proyectoParqueadero.PNG" alt=""></a></div>
+                <div><a data-modal-id="modalApi"><img src="img/api.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- Seccion de habilidades y herramientas No en uso
+    <section class="skills">
+        <div class="skill container">
+            <div class="knowledge-part">
+                <h2><span>knowledge |</span> Conocimientos</h2>
+                <div class="knowledge">
+                    <div>
+                        <img src="img/java.png" alt="">
+                        <h3>HTML</h3>
+                    </div>     
+                    <div>
+                        <img src="img/css-icon.png" alt="">
+                        <h3>CSS</h3>
+                    </div>        
+                    <div>
+                        <img src="img/js-icon.png" alt="">
+                        <h3>JAVASCRIPT</h3>
+                    </div>    
+                </div>
+                
+            </div>
+            <div class="tools-part">
+                <h2><span>tools |</span> Herramientas</h2>
+                <div class="tools">
+                    <div>
+                        <img src="img/vsc-icon.png" alt="">
+                        <h3>VISUAL CODE</h3>
+                    </div>     
+                    <div>
+                        <img src="img/github-icon.png" alt="">
+                        <h3>GITHUB</h3>
+                    </div>        
+                    <div>
+                        <img src="img/eclipse.png" alt="">
+                        <h3>ECLIPSE</h3>
+                    </div> 
+                    <div>
+                        <img src="img/sqldeloveper.png" alt="">
+                        <h3>SQLDELOVEPER</h3>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="about" id="about-me">
+        <div class="about-flex container">
+            <div class="about-info">
+                <p>
+                    Mi nombre es Santiago Arias Garcia,Soy estudiante de Ingenieria de Sistemas y Computacion
+                    actualmente curso Septimo semestre. Me gusta aprender cada extension
+                    de este mundo de la programacion, Actualmente Busco la oportunidad para Ingresar al mundo laboral.
+
+                </p>
+                <p><br>He realizado diferentes proyectos en la universidad y voluntad propia teniendo como fuerte las aplicaciones
+                    de escritorio desarrolladas con Java tambien con conocimientos en desarrollo web, Se me facilita aprender nuevos lenguajes de programacion
+                    y aquirir metodologias de trabajo requeridas.<br> <a href="doc/cv.pdf" target="_blank">Currículum Aqui</a></p>
+            </div>
+            <div class="social">
+                <a href="https://github.com/santiarias65" target="_blank"><img src="img/github.svg" alt=""></a>
+                <a data-modal-id="message"><img src="img/message.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container"></div>
+        @ 2022 Copyright | Santiago Arias - Desarrollador
+    </footer>
+
+    <!-- Modal section 
+
+    <div id="myModal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+    
+        EJEMPLO DE PRUEBA
+        
+        <button class="eins-modal-close-button">OK</button>
+        </div>
+    </div>
+     Modal section -->
+
+    <div id="modalLaberin" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="img/logoLaberin.PNG" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>El proyecto fue realizado con Java como Backend y JavaFx como Frontend, la funcionalidad del
+                        proyecto es realizar un test
+                        computacional a sus usuarios,en los reportes podemos observar la clasificacion general de los
+                        usuarios,calificacion de nuestra encuesta,reportes por cada nivel.
+                        Todo el proyecto esta persistido por su base de datos MSQL
+                    </p>
+
+                    <div class="eins-modal-text2">
+                        <span>ENLACE:</span><a href="https://github.com/santiarias65/laberin" target="_blank">Codigo Aqui</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="modalUniquiz" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="img/proyectoUniquiz.PNG" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>El proyecto fue realizado con Java como Backend y JavaFx como Frontend,el proyecto
+                        es una plataforma en la cual los profesores pueden realizar examenes a sus grupos de estudiantes
+                        cada profesor cuenta con su propio banco de preguntas este siendo publicas o privadas donde no
+                        quiera compartir sus preguntas con otros profesores.
+                        Todo el proyecto esta persistido por su base de datos ORACLE
+                    </p>
+
+                    <div class="eins-modal-text2">
+                        <span>ENLACE:</span><a href="https://github.com/santiarias65/uniquiz" target="_blank">Codigo Aqui</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="modalParqueadero" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="img/proyectoParqueadero.PNG" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>El proyecto fue realizado con Java como Backend y JavaFx como Frontend,el proyecto
+                        es una aplicacion de escritoria para automatizar el proceso en un parqueadero,el parqueadero dependiendo
+                        de los precios del parqueadero nos automatiza a la hora de cobrar a los clientes.
+                        Persistencia en XML
+                    </p>
+
+                    <div class="eins-modal-text2">
+                        <span>ENLACE:</span><a href="https://github.com/santiarias65/parqueaderoHyM" target="_blank">Codigo Aqui</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="modalApi" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="img/api.jpg" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>Api rest codificada con node.js, el cliente fue desarrollado con react, el proyecto es un crud
+                        realizado de publicaciones,Backend realizado en node.js y Frontend realizado en react
+                    </p>
+
+                    <div class="eins-modal-text2">
+                        <span>ENLACE:</span><a href="https://github.com/santiarias65/apirest-react-crud" target="_blank">Codigo Aqui</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="message" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+        <div class="eins-modal-content">
+            <div class="eins-modal-close"></div>
+
+            <form class="form" action="https://formspree.io/f/mayvkajr" method="POST">
+                <label>
+                    Tu Correo Electronico:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Tu Mensaje:
+                    <textarea name="message"></textarea>
+                </label>
+                
+                <button type="submit">Enviar</button>
+            </form>
+
+            
+        </div>
+    </div>
+
+    <script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
+</body>
+
+</html>
